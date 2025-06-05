@@ -9,9 +9,9 @@ import os
 logging.info("Function initializing...")
 
 # Replace with your IoT Hub details
-# IOTHUB_CONNECTION_STRING = "HostName=fruit.azure-devices.net;SharedAccessKeyName=iothubowner;SharedAccessKey=gZbnAEQPW/kPorMBITjERyPfuQQ4OF3fjAIoTNb6+V8="
-DEVICE_ID = "fruit-quality-detector-edge"
-STORAGE_ID = "DefaultEndpointsProtocol=https;AccountName=bananaclassify;AccountKey=bS06YUC0pp5Qk8+PoL9zdseMdLQHPtMXhLUtUFCTsL1KI/78qMorpUUN9XTngD3RPn+0P+PK5Ico+AStQcJ1cQ==;EndpointSuffix=core.windows.net"
+
+DEVICE_ID = "Your device ID"
+STORAGE_ID = "Your Azure storage ID"
 
 def send_direct_method(signal: str):
         

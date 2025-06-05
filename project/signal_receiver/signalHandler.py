@@ -31,7 +31,7 @@ def handle_method(method_request):
         payload = {"error": "Unknown method"}
     
     try:
-        with open("/app/sensor/ledsignal.json", "w") as f:
+        with open("Your signal json directory", "w") as f:
             json.dump({"led": led_state}, f, indent=2)
         logging.info(f"Wrote LED state to file: {led_state}")
     except Exception as e:

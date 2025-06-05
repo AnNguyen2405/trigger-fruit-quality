@@ -11,8 +11,8 @@
                             "loggingOptions": "",
                             "registryCredentials": {
                                 "ClassifierRegistry": {
-                                    "username": "fruitdetect",
-                                    "password": "Tx1qd1Ljk86DGHcLtmXOBvmpzvDM1gqDS6lOjH42ul+ACRANbUyx",
+                                    "username": "",
+                                    "password": "",
                                     "address": "fruitdetect.azurecr.io"
                                   }
                             }

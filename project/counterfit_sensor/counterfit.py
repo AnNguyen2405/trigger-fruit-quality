@@ -43,14 +43,14 @@ while True:
         camera.capture(image, 'jpeg')
         image.seek(0)
 
-        with open('//home//annguyen//Desktop//localsender//image.jpg', 'wb') as image_file:
+        with open('Your directory of image for writing/image.jpg', 'wb') as image_file:
             image_file.write(image.read())
         
         time.sleep(2)
         print("Image captured\n")
         time.sleep(2)
         
-        subprocess.run(["/home/annguyen/Desktop/localsender/.venv/bin/python", "/home/annguyen/Desktop/localsender/test.py"])
+        subprocess.run(["Your python directory", "Your local sender directory"])
         print("Image has been classified by AI module and the result is written to results.json. results.json sent")
         time.sleep(10)
 
@@ -73,25 +73,4 @@ while True:
         print("Waiting for input key to restart the loop...")
         input()
         print("You pressed a key. Script continues...\n")
-
-        
-    #     prediction_url = 'https://southeastasia.api.cognitive.microsoft.com/customvision/v3.0/Prediction/8d7ebd96-12c6-4df6-80d1-5b448ea5288d/classify/iterations/Iteration2/image'
-    #     headers = {
-    #         'Content-Type' : 'application/octet-stream',
-    #         'Prediction-Key': '01f0cb2c62ae44e199eab3eca0ec0e52'
-    #     }
-
-    #     image.seek(0)
-    #     response = requests.post(prediction_url, headers=headers, data=image)
-
-    #     results = response.json()
-
-    #     for prediction in results['predictions']:
-    #         print(f'{prediction["tagName"]}:\t{prediction["probability"] * 100:.2f}%')
-        
-    #     print("=================================\n")
-    #     time.sleep(10)
-
-#prediction_url = 'https://southeastasia.api.cognitive.microsoft.com/customvision/v3.0/Prediction/8d7ebd96-12c6-4df6-80d1-5b448ea5288d/classify/iterations/Iteration2/image'
-#prediction_key = '01f0cb2c62ae44e199eab3eca0ec0e52'
 

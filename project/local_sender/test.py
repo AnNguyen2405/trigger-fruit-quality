@@ -2,10 +2,8 @@ import requests
 from datetime import datetime
 
 # CONFIG
-#localhost:80/
-#ubuntu24/
 url = "http://localhost:80/image"
-image_path = "image.jpg"
+image_path = "Your directory of image for checking/image.jpg"
 
 # SEND IMAGE
 with open(image_path, "rb") as image:
@@ -33,7 +31,7 @@ with open("results.json", "w") as f:
 from azure.storage.blob import BlobServiceClient
 
 # CONFIG
-connection_string = "DefaultEndpointsProtocol=https;EndpointSuffix=core.windows.net;AccountName=bananaclassify;AccountKey=bS06YUC0pp5Qk8+PoL9zdseMdLQHPtMXhLUtUFCTsL1KI/78qMorpUUN9XTngD3RPn+0P+PK5Ico+AStQcJ1cQ==;BlobEndpoint=https://bananaclassify.blob.core.windows.net/;FileEndpoint=https://bananaclassify.file.core.windows.net/;QueueEndpoint=https://bananaclassify.queue.core.windows.net/;TableEndpoint=https://bananaclassify.table.core.windows.net/"
+connection_string = "Your connection string"
 container_name = "banana-result"
 local_file_path = "results.json"
 blob_name = "results.json"  # Path inside blob

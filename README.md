@@ -3,7 +3,8 @@
 This is an IoT project developed by a group of Vietnamese-German students majoring in Computer Science and Engineering (CSE).
 
 The project aims to implement Azure in an automatic fruit quality detection prototype. We used a virtual Ubuntu 24.02 environment as an IoT Edge device.
-
+---
+Disclaimer: this repo is for storing our work only, no specific contribution can be found here.
 ---
 
 ## 📁 Project Structure

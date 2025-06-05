@@ -2,10 +2,8 @@ import requests
 from datetime import datetime
 
 # CONFIG
-#localhost:80/
-#ubuntu24/
 url = "http://localhost:80/image"
-image_path = "image.jpg"
+image_path = "/home/annguyen/Desktop/localsender/image.jpg"
 
 # SEND IMAGE
 with open(image_path, "rb") as image:

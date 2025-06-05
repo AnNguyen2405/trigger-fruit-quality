@@ -1,0 +1,43 @@
+# Byte-compiled / optimized / debug Python files
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Local virtual environments
+.venv/
+env/
+venv/
+
+# OS-specific junk
+.DS_Store
+Thumbs.db
+
+# IDE/project settings
+.vscode/
+.idea/
+*.swp
+*.bak
+
+# Git metadata
+.git/
+.gitignore
+
+# Docker artifacts
+Dockerfile.*
+*.tar
+*.img
+
+# Logs
+*.log
+
+# Tests and docs (optional)
+tests/
+docs/
+
+# Large files
+*.zip
+*.tar.gz
+*.egg-info/
+
+# Deployment files (optional)
+deployment.*
